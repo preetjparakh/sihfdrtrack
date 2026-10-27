@@ -10,7 +10,10 @@ from mock_bank.app.main import app as mock_bank_asgi_app
 from fastapi.testclient import TestClient
 
 def dispatch_bank_verification_request(bank_id: str, fdr_number: str) -> Tuple[int, Dict[str, Any]]:
-    url = f"{settings.MOCK_BANK_SERVICE_URL}/mock-bank/v1/fdr-verifications"
+    base_url = settings.MOCK_BANK_SERVICE_URL.rstrip("/")
+    if not base_url.startswith(("http://", "https://")):
+        base_url = f"https://{base_url}"
+    url = f"{base_url}/mock-bank/v1/fdr-verifications"
     headers = {"X-Service-Token": settings.BANK_SERVICE_TOKEN}
     payload = {"bank_id": bank_id, "fdr_number": fdr_number}
 

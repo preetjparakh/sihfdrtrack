@@ -11,7 +11,9 @@ def seed_mock_bank():
 
     db = SessionLocal()
     try:
-        # Clear existing
+        if db.query(MockBankRecord).first():
+            print("Mock bank records already exist; keeping existing records.")
+            return
         db.query(MockBankRecord).delete()
         records = []
         for r in data.get("bank_records", []):

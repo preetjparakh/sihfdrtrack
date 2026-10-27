@@ -3,7 +3,8 @@
 import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useState } from "react";
 import CollegeStatusPage from "./CollegeStatusPage";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+const API_HOST = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+const API = API_HOST.startsWith("http://") || API_HOST.startsWith("https://") ? API_HOST : `https://${API_HOST}`;
 const NAV = [
   ["overview", "Overview", "◫"],
   ["submissions", "FDR submissions", "▤"],
