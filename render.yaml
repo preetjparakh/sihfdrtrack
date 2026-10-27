@@ -51,10 +51,7 @@ services:
     startCommand: npm start
     envVars:
       - key: NEXT_PUBLIC_API_URL
-        fromService:
-          type: web
-          name: aicte-fdr-api
-          property: host
+        value: https://aicte-fdr-api-oaml.onrender.com
 
 envVarGroups:
   - name: aicte-demo-secrets
