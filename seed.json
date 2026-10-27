@@ -1,0 +1,3103 @@
+{
+  "meta": {
+    "dataset_version": "1.0",
+    "synthetic": true,
+    "demo_now": "2026-10-26T04:30:00Z",
+    "display_timezone": "Asia/Kolkata",
+    "notes": "All institutions, banks, references and amounts are fictitious. No real AICTE policy is encoded."
+  },
+  "institutions": [
+    {
+      "id": "INST-001",
+      "name": "College A (Synthetic)",
+      "region": "North",
+      "email": "college1@example.invalid",
+      "representative_user_id": "USER-C01"
+    },
+    {
+      "id": "INST-002",
+      "name": "College B (Synthetic)",
+      "region": "South",
+      "email": "college2@example.invalid",
+      "representative_user_id": "USER-C02"
+    },
+    {
+      "id": "INST-003",
+      "name": "College C (Synthetic)",
+      "region": "East",
+      "email": "college3@example.invalid",
+      "representative_user_id": "USER-C03"
+    },
+    {
+      "id": "INST-004",
+      "name": "College D (Synthetic)",
+      "region": "West",
+      "email": "college4@example.invalid",
+      "representative_user_id": "USER-C04"
+    },
+    {
+      "id": "INST-005",
+      "name": "College E (Synthetic)",
+      "region": "North",
+      "email": "college5@example.invalid",
+      "representative_user_id": "USER-C05"
+    },
+    {
+      "id": "INST-006",
+      "name": "College F (Synthetic)",
+      "region": "South",
+      "email": "college6@example.invalid",
+      "representative_user_id": "USER-C06"
+    },
+    {
+      "id": "INST-007",
+      "name": "College G (Synthetic)",
+      "region": "East",
+      "email": "college7@example.invalid",
+      "representative_user_id": "USER-C07"
+    },
+    {
+      "id": "INST-008",
+      "name": "College H (Synthetic)",
+      "region": "West",
+      "email": "college8@example.invalid",
+      "representative_user_id": "USER-C08"
+    },
+    {
+      "id": "INST-009",
+      "name": "College I (Synthetic)",
+      "region": "North",
+      "email": "college9@example.invalid",
+      "representative_user_id": "USER-C09"
+    },
+    {
+      "id": "INST-010",
+      "name": "College J (Synthetic)",
+      "region": "South",
+      "email": "college10@example.invalid",
+      "representative_user_id": "USER-C10"
+    }
+  ],
+  "banks": [
+    {
+      "id": "DEMO-BANK-01",
+      "name": "Aegis National Trust",
+      "branch": "Demo Branch 1",
+      "verification_endpoint": "/mock-bank/v1/fdr-verifications",
+      "environment": "MOCK"
+    },
+    {
+      "id": "DEMO-BANK-02",
+      "name": "Vanguard Horizon Bank",
+      "branch": "Demo Branch 2",
+      "verification_endpoint": "/mock-bank/v1/fdr-verifications",
+      "environment": "MOCK"
+    },
+    {
+      "id": "DEMO-BANK-03",
+      "name": "Crestview Commerce Bank",
+      "branch": "Demo Branch 3",
+      "verification_endpoint": "/mock-bank/v1/fdr-verifications",
+      "environment": "MOCK"
+    },
+    {
+      "id": "DEMO-BANK-04",
+      "name": "Meridian Reserve Corp",
+      "branch": "Meridian Reserve Corp Main Branch",
+      "verification_endpoint": "/mock-bank/v1/fdr-verifications",
+      "environment": "MOCK"
+    },
+    {
+      "id": "DEMO-BANK-05",
+      "name": "Silverline Federal Credit Union",
+      "branch": "Silverline Federal Credit Union Main Branch",
+      "verification_endpoint": "/mock-bank/v1/fdr-verifications",
+      "environment": "MOCK"
+    },
+    {
+      "id": "DEMO-BANK-06",
+      "name": "Solstice Merchant Bank",
+      "branch": "Solstice Merchant Bank Main Branch",
+      "verification_endpoint": "/mock-bank/v1/fdr-verifications",
+      "environment": "MOCK"
+    }
+  ],
+  "users": [
+    {
+      "id": "USER-C01",
+      "email": "college1@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-001"
+    },
+    {
+      "id": "USER-C02",
+      "email": "college2@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-002"
+    },
+    {
+      "id": "USER-C03",
+      "email": "college3@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-003"
+    },
+    {
+      "id": "USER-C04",
+      "email": "college4@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-004"
+    },
+    {
+      "id": "USER-C05",
+      "email": "college5@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-005"
+    },
+    {
+      "id": "USER-C06",
+      "email": "college6@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-006"
+    },
+    {
+      "id": "USER-C07",
+      "email": "college7@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-007"
+    },
+    {
+      "id": "USER-C08",
+      "email": "college8@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-008"
+    },
+    {
+      "id": "USER-C09",
+      "email": "college9@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-009"
+    },
+    {
+      "id": "USER-C10",
+      "email": "college10@example.invalid",
+      "role": "COLLEGE",
+      "institution_id": "INST-010"
+    },
+    {
+      "id": "USER-O01",
+      "email": "officer@example.invalid",
+      "role": "OFFICER",
+      "institution_id": null
+    },
+    {
+      "id": "USER-A01",
+      "email": "authority@example.invalid",
+      "role": "APPROVER",
+      "institution_id": null
+    }
+  ],
+  "submissions": [
+    {
+      "id": "SUB-001",
+      "institution_id": "INST-001",
+      "scenario": "MATCH",
+      "application_reference": "DEMO-APP-INST-001",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000001",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-001"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-002",
+      "institution_id": "INST-002",
+      "scenario": "AMOUNT_MISMATCH",
+      "application_reference": "DEMO-APP-INST-002",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000002",
+        "depositor_name": "Ananya Iyer",
+        "principal_amount": "1500000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-002"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-003",
+      "institution_id": "INST-003",
+      "scenario": "MATURITY_MISMATCH",
+      "application_reference": "DEMO-APP-INST-003",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000003",
+        "depositor_name": "Rohan Deshmukh",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2028-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-003"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-004",
+      "institution_id": "INST-004",
+      "scenario": "NAME_MISMATCH",
+      "application_reference": "DEMO-APP-INST-004",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000004",
+        "depositor_name": "Priya Patel",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-004"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-005",
+      "institution_id": "INST-005",
+      "scenario": "NOT_FOUND",
+      "application_reference": "DEMO-APP-INST-005",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000005",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-005"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-006",
+      "institution_id": "INST-006",
+      "scenario": "SOURCE_UNAVAILABLE",
+      "application_reference": "DEMO-APP-INST-006",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000006",
+        "depositor_name": "Kavya Nair",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-006"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-007",
+      "institution_id": "INST-007",
+      "scenario": "PARTIAL_RESPONSE",
+      "application_reference": "DEMO-APP-INST-007",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000007",
+        "depositor_name": "Aditya Agarwal",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": null,
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-007"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-008",
+      "institution_id": "INST-008",
+      "scenario": "CLOSED",
+      "application_reference": "DEMO-APP-INST-008",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000008",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "CLOSED",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-008"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-009",
+      "institution_id": "INST-009",
+      "scenario": "MATURED",
+      "application_reference": "DEMO-APP-INST-009",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000009",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-16",
+        "instrument_status": "MATURED",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-009"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-010",
+      "institution_id": "INST-010",
+      "scenario": "DUE_90",
+      "application_reference": "DEMO-APP-INST-010",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000010",
+        "depositor_name": "Ananya Iyer",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-01-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-010"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-011",
+      "institution_id": "INST-001",
+      "scenario": "DUE_60",
+      "application_reference": "DEMO-APP-INST-001",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000011",
+        "depositor_name": "Rohan Deshmukh",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-12-25",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-011"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-012",
+      "institution_id": "INST-002",
+      "scenario": "DUE_30",
+      "application_reference": "DEMO-APP-INST-002",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000012",
+        "depositor_name": "Priya Patel",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-11-25",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-012"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-013",
+      "institution_id": "INST-003",
+      "scenario": "DUE_7",
+      "application_reference": "DEMO-APP-INST-003",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000013",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-11-02",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-013"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-014",
+      "institution_id": "INST-004",
+      "scenario": "DUE_1",
+      "application_reference": "DEMO-APP-INST-004",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000014",
+        "depositor_name": "Kavya Nair",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-27",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-014"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-015",
+      "institution_id": "INST-005",
+      "scenario": "DUE_TODAY",
+      "application_reference": "DEMO-APP-INST-005",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000015",
+        "depositor_name": "Aditya Agarwal",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-26",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-015"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-016",
+      "institution_id": "INST-006",
+      "scenario": "OVERDUE",
+      "application_reference": "DEMO-APP-INST-006",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000016",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-18",
+        "instrument_status": "MATURED",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-016"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": "2026-10-18",
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": true
+    },
+    {
+      "id": "SUB-017",
+      "institution_id": "INST-007",
+      "scenario": "MISSING_DOCUMENT",
+      "application_reference": "DEMO-APP-INST-007",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000017",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-018",
+      "institution_id": "INST-008",
+      "scenario": "UNREADABLE",
+      "application_reference": "DEMO-APP-INST-008",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000018",
+        "depositor_name": "Ananya Iyer",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-018"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-019",
+      "institution_id": "INST-001",
+      "scenario": "DUPLICATE",
+      "application_reference": "DEMO-APP-INST-001",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000001",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-019"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-020",
+      "institution_id": "INST-010",
+      "scenario": "AMBIGUOUS_DATE",
+      "application_reference": "DEMO-APP-INST-010",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000020",
+        "depositor_name": "Priya Patel",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": null,
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-020"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-021",
+      "institution_id": "INST-001",
+      "scenario": "LEADING_ZERO",
+      "application_reference": "DEMO-APP-INST-001",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000021",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-021"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-022",
+      "institution_id": "INST-002",
+      "scenario": "RENEWAL_OLD",
+      "application_reference": "DEMO-APP-INST-002",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000022",
+        "depositor_name": "Kavya Nair",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-23",
+        "instrument_status": "MATURED",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-022"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": true
+    },
+    {
+      "id": "SUB-023",
+      "institution_id": "INST-002",
+      "scenario": "RENEWAL_NEW",
+      "application_reference": "DEMO-APP-INST-002",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000023",
+        "depositor_name": "Aditya Agarwal",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-023"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": "SUB-022",
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": true
+    },
+    {
+      "id": "SUB-024",
+      "institution_id": "INST-004",
+      "scenario": "RELEASE_REQUESTED",
+      "application_reference": "DEMO-APP-INST-004",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000024",
+        "depositor_name": "Meera Mehta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-024"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-025",
+      "institution_id": "INST-005",
+      "scenario": "RELEASE_APPROVED",
+      "application_reference": "DEMO-APP-INST-005",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000025",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-025"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-026",
+      "institution_id": "INST-006",
+      "scenario": "RELEASE_COMPLETED",
+      "application_reference": "DEMO-APP-INST-006",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000026",
+        "depositor_name": "Ananya Iyer",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-026"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-027",
+      "institution_id": "INST-007",
+      "scenario": "MANUAL_PENDING",
+      "application_reference": "DEMO-APP-INST-007",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000027",
+        "depositor_name": "Rohan Deshmukh",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-027"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-028",
+      "institution_id": "INST-008",
+      "scenario": "MANUAL_CONFIRMED",
+      "application_reference": "DEMO-APP-INST-008",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000028",
+        "depositor_name": "Priya Patel",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-028"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-029",
+      "institution_id": "INST-009",
+      "scenario": "LIEN_MISMATCH",
+      "application_reference": "DEMO-APP-INST-009",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000029",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-029"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    },
+    {
+      "id": "SUB-030",
+      "institution_id": "INST-010",
+      "scenario": "STALE_CONFIRMATION",
+      "application_reference": "DEMO-APP-INST-010",
+      "instrument_type": "FDR",
+      "entered_fields": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000030",
+        "depositor_name": "Kavya Nair",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "document_ids": [
+        "DOC-030"
+      ],
+      "submitted_at": "2026-10-26T03:30:00Z",
+      "assigned_officer_id": "USER-O01",
+      "review_status": "SUBMITTED",
+      "verification_status": "NOT_INITIATED",
+      "renewal_due_date": null,
+      "document_valid_until": null,
+      "predecessor_submission_id": null,
+      "required_document_types": [
+        "FDR"
+      ],
+      "demo_renewal_required": false
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-001",
+      "submission_id": "SUB-001",
+      "type": "FDR",
+      "layout_id": "L1",
+      "variant": "clean",
+      "file_stem": "DOC-001",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000001",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-002",
+      "submission_id": "SUB-002",
+      "type": "FDR",
+      "layout_id": "L2",
+      "variant": "rotated",
+      "file_stem": "DOC-002",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000002",
+        "depositor_name": "Ananya Iyer",
+        "principal_amount": "1500000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-003",
+      "submission_id": "SUB-003",
+      "type": "FDR",
+      "layout_id": "L3",
+      "variant": "low_contrast",
+      "file_stem": "DOC-003",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000003",
+        "depositor_name": "Rohan Deshmukh",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-004",
+      "submission_id": "SUB-004",
+      "type": "FDR",
+      "layout_id": "L4",
+      "variant": "clean",
+      "file_stem": "DOC-004",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000004",
+        "depositor_name": "Priya Patel",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-005",
+      "submission_id": "SUB-005",
+      "type": "FDR",
+      "layout_id": "L5",
+      "variant": "clean",
+      "file_stem": "DOC-005",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000005",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-006",
+      "submission_id": "SUB-006",
+      "type": "FDR",
+      "layout_id": "L1",
+      "variant": "clean",
+      "file_stem": "DOC-006",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000006",
+        "depositor_name": "Kavya Nair",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-007",
+      "submission_id": "SUB-007",
+      "type": "FDR",
+      "layout_id": "L2",
+      "variant": "rotated",
+      "file_stem": "DOC-007",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000007",
+        "depositor_name": "Aditya Agarwal",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": null,
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-008",
+      "submission_id": "SUB-008",
+      "type": "FDR",
+      "layout_id": "L3",
+      "variant": "low_contrast",
+      "file_stem": "DOC-008",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000008",
+        "depositor_name": "Meera Mehta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "CLOSED",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-009",
+      "submission_id": "SUB-009",
+      "type": "FDR",
+      "layout_id": "L4",
+      "variant": "clean",
+      "file_stem": "DOC-009",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000009",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-16",
+        "instrument_status": "MATURED",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-010",
+      "submission_id": "SUB-010",
+      "type": "FDR",
+      "layout_id": "L5",
+      "variant": "clean",
+      "file_stem": "DOC-010",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000010",
+        "depositor_name": "Ananya Iyer",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-01-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-011",
+      "submission_id": "SUB-011",
+      "type": "FDR",
+      "layout_id": "L1",
+      "variant": "clean",
+      "file_stem": "DOC-011",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000011",
+        "depositor_name": "Rohan Deshmukh",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-12-25",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-012",
+      "submission_id": "SUB-012",
+      "type": "FDR",
+      "layout_id": "L2",
+      "variant": "rotated",
+      "file_stem": "DOC-012",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000012",
+        "depositor_name": "Priya Patel",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-11-25",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-013",
+      "submission_id": "SUB-013",
+      "type": "FDR",
+      "layout_id": "L3",
+      "variant": "low_contrast",
+      "file_stem": "DOC-013",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000013",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-11-02",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-014",
+      "submission_id": "SUB-014",
+      "type": "FDR",
+      "layout_id": "L4",
+      "variant": "clean",
+      "file_stem": "DOC-014",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000014",
+        "depositor_name": "Kavya Nair",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-27",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-015",
+      "submission_id": "SUB-015",
+      "type": "FDR",
+      "layout_id": "L5",
+      "variant": "clean",
+      "file_stem": "DOC-015",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000015",
+        "depositor_name": "Aditya Agarwal",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-26",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-016",
+      "submission_id": "SUB-016",
+      "type": "FDR",
+      "layout_id": "L1",
+      "variant": "clean",
+      "file_stem": "DOC-016",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000016",
+        "depositor_name": "Meera Mehta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-18",
+        "instrument_status": "MATURED",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-018",
+      "submission_id": "SUB-018",
+      "type": "FDR",
+      "layout_id": "L3",
+      "variant": "blurred",
+      "file_stem": "DOC-018",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000018",
+        "depositor_name": "Ananya Iyer",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": true,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-019",
+      "submission_id": "SUB-019",
+      "type": "FDR",
+      "layout_id": "L4",
+      "variant": "clean",
+      "file_stem": "DOC-019",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000001",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-020",
+      "submission_id": "SUB-020",
+      "type": "FDR",
+      "layout_id": "L5",
+      "variant": "clean",
+      "file_stem": "DOC-020",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000020",
+        "depositor_name": "Priya Patel",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "04/05/2027",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": true,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-021",
+      "submission_id": "SUB-021",
+      "type": "FDR",
+      "layout_id": "L1",
+      "variant": "clean",
+      "file_stem": "DOC-021",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000021",
+        "depositor_name": "Meera Mehta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-022",
+      "submission_id": "SUB-022",
+      "type": "FDR",
+      "layout_id": "L2",
+      "variant": "rotated",
+      "file_stem": "DOC-022",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000022",
+        "depositor_name": "Kavya Nair",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2026-10-23",
+        "instrument_status": "MATURED",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-023",
+      "submission_id": "SUB-023",
+      "type": "FDR",
+      "layout_id": "L3",
+      "variant": "low_contrast",
+      "file_stem": "DOC-023",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000023",
+        "depositor_name": "Aditya Agarwal",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-024",
+      "submission_id": "SUB-024",
+      "type": "FDR",
+      "layout_id": "L4",
+      "variant": "clean",
+      "file_stem": "DOC-024",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000024",
+        "depositor_name": "Meera Mehta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-025",
+      "submission_id": "SUB-025",
+      "type": "FDR",
+      "layout_id": "L5",
+      "variant": "clean",
+      "file_stem": "DOC-025",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000025",
+        "depositor_name": "Aarav Sharma",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-026",
+      "submission_id": "SUB-026",
+      "type": "FDR",
+      "layout_id": "L1",
+      "variant": "clean",
+      "file_stem": "DOC-026",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000026",
+        "depositor_name": "Ananya Iyer",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-027",
+      "submission_id": "SUB-027",
+      "type": "FDR",
+      "layout_id": "L2",
+      "variant": "rotated",
+      "file_stem": "DOC-027",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000027",
+        "depositor_name": "Rohan Deshmukh",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-028",
+      "submission_id": "SUB-028",
+      "type": "FDR",
+      "layout_id": "L3",
+      "variant": "low_contrast",
+      "file_stem": "DOC-028",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-01",
+        "fdr_number": "FDR-2026-000028",
+        "depositor_name": "Priya Patel",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-029",
+      "submission_id": "SUB-029",
+      "type": "FDR",
+      "layout_id": "L4",
+      "variant": "clean",
+      "file_stem": "DOC-029",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-02",
+        "fdr_number": "FDR-2026-000029",
+        "depositor_name": "Vikram Sengupta",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    },
+    {
+      "id": "DOC-030",
+      "submission_id": "SUB-030",
+      "type": "FDR",
+      "layout_id": "L5",
+      "variant": "clean",
+      "file_stem": "DOC-030",
+      "uploaded_at": "2026-10-26T03:25:00Z",
+      "ground_truth": {
+        "bank_id": "DEMO-BANK-03",
+        "fdr_number": "FDR-2026-000030",
+        "depositor_name": "Kavya Nair",
+        "principal_amount": "1000000.00",
+        "currency": "INR",
+        "issue_date": "2026-01-15",
+        "maturity_date": "2027-04-24",
+        "instrument_status": "ACTIVE",
+        "beneficiary_name": "AICTE (demo only)",
+        "lien_status": "MARKED",
+        "lien_in_favour_of": "AICTE (demo only)",
+        "status_as_of": "2026-10-26T04:00:00Z",
+        "record_updated_at": "2026-10-25T04:00:00Z"
+      },
+      "expected_ocr_review": false,
+      "watermark": "SYNTHETIC - FOR PROTOTYPE ONLY"
+    }
+  ],
+  "bank_records": [
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000001",
+      "depositor_name": "Aarav Sharma",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-02",
+      "fdr_number": "FDR-2026-000002",
+      "depositor_name": "Ananya Iyer",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000003",
+      "depositor_name": "Rohan Deshmukh",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000004",
+      "depositor_name": "Priya Patel",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000006",
+      "depositor_name": "Kavya Nair",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000007",
+      "depositor_name": "Aditya Agarwal",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": null,
+      "lien_in_favour_of": null,
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-02",
+      "fdr_number": "FDR-2026-000008",
+      "depositor_name": "Meera Mehta",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "CLOSED",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000009",
+      "depositor_name": "Aarav Sharma",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2026-10-16",
+      "instrument_status": "MATURED",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000010",
+      "depositor_name": "Ananya Iyer",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-01-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-02",
+      "fdr_number": "FDR-2026-000011",
+      "depositor_name": "Rohan Deshmukh",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2026-12-25",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000012",
+      "depositor_name": "Priya Patel",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2026-11-25",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000013",
+      "depositor_name": "Vikram Sengupta",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2026-11-02",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-02",
+      "fdr_number": "FDR-2026-000014",
+      "depositor_name": "Kavya Nair",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2026-10-27",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000015",
+      "depositor_name": "Aditya Agarwal",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2026-10-26",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000016",
+      "depositor_name": "Meera Mehta",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2026-10-18",
+      "instrument_status": "MATURED",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-02",
+      "fdr_number": "FDR-2026-000017",
+      "depositor_name": "Aarav Sharma",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000018",
+      "depositor_name": "Ananya Iyer",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-02",
+      "fdr_number": "FDR-2026-000020",
+      "depositor_name": "Priya Patel",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000021",
+      "depositor_name": "Meera Mehta",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000022",
+      "depositor_name": "Kavya Nair",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2026-10-23",
+      "instrument_status": "MATURED",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000023",
+      "depositor_name": "Aditya Agarwal",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000024",
+      "depositor_name": "Meera Mehta",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000025",
+      "depositor_name": "Aarav Sharma",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-02",
+      "fdr_number": "FDR-2026-000026",
+      "depositor_name": "Ananya Iyer",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000027",
+      "depositor_name": "Rohan Deshmukh",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-01",
+      "fdr_number": "FDR-2026-000028",
+      "depositor_name": "Priya Patel",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-02",
+      "fdr_number": "FDR-2026-000029",
+      "depositor_name": "Vikram Sengupta",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "Other Beneficiary (Synthetic)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    },
+    {
+      "bank_id": "DEMO-BANK-03",
+      "fdr_number": "FDR-2026-000030",
+      "depositor_name": "Kavya Nair",
+      "principal_amount": "1000000.00",
+      "currency": "INR",
+      "issue_date": "2026-01-15",
+      "maturity_date": "2027-04-24",
+      "instrument_status": "ACTIVE",
+      "beneficiary_name": "AICTE (demo only)",
+      "lien_status": "MARKED",
+      "lien_in_favour_of": "AICTE (demo only)",
+      "status_as_of": "2026-10-26T04:00:00Z",
+      "record_updated_at": "2026-10-25T04:00:00Z"
+    }
+  ],
+  "verification_history": [
+    {
+      "id": "VER-028",
+      "submission_id": "SUB-028",
+      "method": "MANUAL_BANK_CONFIRMATION",
+      "environment": "MOCK",
+      "status": "CONFIRMED",
+      "confirmed_fields": [
+        "fdr_number",
+        "principal_amount",
+        "maturity_date",
+        "depositor_name"
+      ],
+      "requested_at": "2026-10-26T03:40:00Z",
+      "responded_at": "2026-10-26T04:00:00Z",
+      "source_reference": "DEMO-CONF-028",
+      "evidence_note": "Synthetic bank confirmation. Not real bank evidence.",
+      "recorded_by": "USER-O01"
+    },
+    {
+      "id": "VER-030",
+      "submission_id": "SUB-030",
+      "method": "MOCK_API",
+      "environment": "MOCK",
+      "status": "CONFIRMED",
+      "confirmed_fields": [
+        "fdr_number",
+        "principal_amount",
+        "maturity_date",
+        "depositor_name"
+      ],
+      "requested_at": "2026-09-01T03:00:00Z",
+      "responded_at": "2026-09-01T04:00:00Z",
+      "source_reference": "DEMO-CONF-030",
+      "evidence_note": "Synthetic bank confirmation. Not real bank evidence.",
+      "recorded_by": "USER-O01"
+    }
+  ],
+  "release_requests": [
+    {
+      "id": "REL-024",
+      "submission_id": "SUB-024",
+      "request_type": "FDR_DISCHARGE",
+      "reason": "Synthetic conditions fulfilled for demo review",
+      "status": "UNDER_REVIEW",
+      "requested_at": "2026-10-20T04:00:00Z",
+      "approved_by": null,
+      "approved_at": null,
+      "executed_at": null,
+      "execution_reference": null
+    },
+    {
+      "id": "REL-025",
+      "submission_id": "SUB-025",
+      "request_type": "FDR_DISCHARGE",
+      "reason": "Synthetic conditions fulfilled for demo review",
+      "status": "APPROVED_EXECUTION_PENDING",
+      "requested_at": "2026-10-20T04:00:00Z",
+      "approved_by": "USER-A01",
+      "approved_at": "2026-10-24T04:00:00Z",
+      "executed_at": null,
+      "execution_reference": null
+    },
+    {
+      "id": "REL-026",
+      "submission_id": "SUB-026",
+      "request_type": "FDR_DISCHARGE",
+      "reason": "Synthetic conditions fulfilled for demo review",
+      "status": "COMPLETED",
+      "requested_at": "2026-10-20T04:00:00Z",
+      "approved_by": "USER-A01",
+      "approved_at": "2026-10-24T04:00:00Z",
+      "executed_at": "2026-10-25T04:00:00Z",
+      "execution_reference": "DEMO-DISCHARGE-26"
+    }
+  ],
+  "audit_events": [
+    {
+      "id": "AUD-001",
+      "submission_id": "SUB-001",
+      "actor_id": "USER-C01",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-002",
+      "submission_id": "SUB-002",
+      "actor_id": "USER-C02",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-003",
+      "submission_id": "SUB-003",
+      "actor_id": "USER-C03",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-004",
+      "submission_id": "SUB-004",
+      "actor_id": "USER-C04",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-005",
+      "submission_id": "SUB-005",
+      "actor_id": "USER-C05",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-006",
+      "submission_id": "SUB-006",
+      "actor_id": "USER-C06",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-007",
+      "submission_id": "SUB-007",
+      "actor_id": "USER-C07",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-008",
+      "submission_id": "SUB-008",
+      "actor_id": "USER-C08",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-009",
+      "submission_id": "SUB-009",
+      "actor_id": "USER-C09",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-010",
+      "submission_id": "SUB-010",
+      "actor_id": "USER-C10",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-011",
+      "submission_id": "SUB-011",
+      "actor_id": "USER-C01",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-012",
+      "submission_id": "SUB-012",
+      "actor_id": "USER-C02",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-013",
+      "submission_id": "SUB-013",
+      "actor_id": "USER-C03",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-014",
+      "submission_id": "SUB-014",
+      "actor_id": "USER-C04",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-015",
+      "submission_id": "SUB-015",
+      "actor_id": "USER-C05",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-016",
+      "submission_id": "SUB-016",
+      "actor_id": "USER-C06",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-017",
+      "submission_id": "SUB-017",
+      "actor_id": "USER-C07",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-018",
+      "submission_id": "SUB-018",
+      "actor_id": "USER-C08",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-019",
+      "submission_id": "SUB-019",
+      "actor_id": "USER-C01",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-020",
+      "submission_id": "SUB-020",
+      "actor_id": "USER-C10",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-021",
+      "submission_id": "SUB-021",
+      "actor_id": "USER-C01",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-022",
+      "submission_id": "SUB-022",
+      "actor_id": "USER-C02",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-023",
+      "submission_id": "SUB-023",
+      "actor_id": "USER-C02",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-024",
+      "submission_id": "SUB-024",
+      "actor_id": "USER-C04",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-025",
+      "submission_id": "SUB-025",
+      "actor_id": "USER-C05",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-026",
+      "submission_id": "SUB-026",
+      "actor_id": "USER-C06",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-027",
+      "submission_id": "SUB-027",
+      "actor_id": "USER-C07",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-028",
+      "submission_id": "SUB-028",
+      "actor_id": "USER-C08",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-029",
+      "submission_id": "SUB-029",
+      "actor_id": "USER-C09",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    },
+    {
+      "id": "AUD-030",
+      "submission_id": "SUB-030",
+      "actor_id": "USER-C10",
+      "action": "SUBMITTED",
+      "at": "2026-10-26T03:30:00Z",
+      "environment": "MOCK"
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "TEST-001",
+      "submission_id": "SUB-001",
+      "scenario": "MATCH",
+      "description": "Exact match",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-002",
+      "submission_id": "SUB-002",
+      "scenario": "AMOUNT_MISMATCH",
+      "description": "Document and entered amount differ from bank",
+      "expected_result": "MISMATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-003",
+      "submission_id": "SUB-003",
+      "scenario": "MATURITY_MISMATCH",
+      "description": "Entered date differs from document and bank",
+      "expected_result": "MISMATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-004",
+      "submission_id": "SUB-004",
+      "scenario": "NAME_MISMATCH",
+      "description": "Bank depositor differs",
+      "expected_result": "MISMATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-005",
+      "submission_id": "SUB-005",
+      "scenario": "NOT_FOUND",
+      "description": "No record in bank fixture",
+      "expected_result": "NOT_FOUND_REVIEW",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-006",
+      "submission_id": "SUB-006",
+      "scenario": "SOURCE_UNAVAILABLE",
+      "description": "Simulated bank outage",
+      "expected_result": "SOURCE_UNAVAILABLE",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-007",
+      "submission_id": "SUB-007",
+      "scenario": "PARTIAL_RESPONSE",
+      "description": "Bank cannot confirm lien",
+      "expected_result": "PARTIAL_CONFIRMATION",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-008",
+      "submission_id": "SUB-008",
+      "scenario": "CLOSED",
+      "description": "Bank says deposit closed",
+      "expected_result": "CLOSED_REVIEW",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-009",
+      "submission_id": "SUB-009",
+      "scenario": "MATURED",
+      "description": "Matured instrument",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": -10,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-010",
+      "submission_id": "SUB-010",
+      "scenario": "DUE_90",
+      "description": "90 day reminder boundary",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 90,
+      "expected_reminder_today": true,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-011",
+      "submission_id": "SUB-011",
+      "scenario": "DUE_60",
+      "description": "60 day boundary",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 60,
+      "expected_reminder_today": true,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-012",
+      "submission_id": "SUB-012",
+      "scenario": "DUE_30",
+      "description": "30 day boundary",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 30,
+      "expected_reminder_today": true,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-013",
+      "submission_id": "SUB-013",
+      "scenario": "DUE_7",
+      "description": "7 day boundary",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 7,
+      "expected_reminder_today": true,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-014",
+      "submission_id": "SUB-014",
+      "scenario": "DUE_1",
+      "description": "1 day boundary",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 1,
+      "expected_reminder_today": true,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-015",
+      "submission_id": "SUB-015",
+      "scenario": "DUE_TODAY",
+      "description": "Maturity today",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 0,
+      "expected_reminder_today": true,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-016",
+      "submission_id": "SUB-016",
+      "scenario": "OVERDUE",
+      "description": "Renewal deadline missed",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": -8,
+      "expected_reminder_today": false,
+      "expected_overdue": true
+    },
+    {
+      "id": "TEST-017",
+      "submission_id": "SUB-017",
+      "scenario": "MISSING_DOCUMENT",
+      "description": "Required file absent",
+      "expected_result": "BLOCK_MISSING_DOCUMENT",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-018",
+      "submission_id": "SUB-018",
+      "scenario": "UNREADABLE",
+      "description": "OCR cannot confidently extract",
+      "expected_result": "OCR_REVIEW",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-019",
+      "submission_id": "SUB-019",
+      "scenario": "DUPLICATE",
+      "description": "Second submission repeats bank/reference",
+      "expected_result": "DUPLICATE_REVIEW",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-020",
+      "submission_id": "SUB-020",
+      "scenario": "AMBIGUOUS_DATE",
+      "description": "Ambiguous document date requires review",
+      "expected_result": "DATE_REVIEW",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-021",
+      "submission_id": "SUB-021",
+      "scenario": "LEADING_ZERO",
+      "description": "Reference has leading zeros",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-022",
+      "submission_id": "SUB-022",
+      "scenario": "RENEWAL_OLD",
+      "description": "Predecessor awaiting successor acceptance",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": -3,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-023",
+      "submission_id": "SUB-023",
+      "scenario": "RENEWAL_NEW",
+      "description": "Successor pending review",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-024",
+      "submission_id": "SUB-024",
+      "scenario": "RELEASE_REQUESTED",
+      "description": "Request under scrutiny",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-025",
+      "submission_id": "SUB-025",
+      "scenario": "RELEASE_APPROVED",
+      "description": "Approved but not executed",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-026",
+      "submission_id": "SUB-026",
+      "scenario": "RELEASE_COMPLETED",
+      "description": "Execution evidence recorded",
+      "expected_result": "FIELDS_MATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-027",
+      "submission_id": "SUB-027",
+      "scenario": "MANUAL_PENDING",
+      "description": "Manual bank confirmation needed",
+      "expected_result": "MANUAL_PENDING",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-028",
+      "submission_id": "SUB-028",
+      "scenario": "MANUAL_CONFIRMED",
+      "description": "Manual evidence recorded",
+      "expected_result": "MANUAL_CONFIRMED",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-029",
+      "submission_id": "SUB-029",
+      "scenario": "LIEN_MISMATCH",
+      "description": "Bank lien beneficiary differs",
+      "expected_result": "MISMATCH",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    },
+    {
+      "id": "TEST-030",
+      "submission_id": "SUB-030",
+      "scenario": "STALE_CONFIRMATION",
+      "description": "Old confirmation requires review under demo policy",
+      "expected_result": "REVERIFY_REVIEW",
+      "expected_maturity_offset_days": 180,
+      "expected_reminder_today": false,
+      "expected_overdue": false
+    }
+  ],
+  "rules": {
+    "required_fields": [
+      "bank_id",
+      "fdr_number",
+      "depositor_name",
+      "principal_amount",
+      "currency",
+      "issue_date",
+      "maturity_date"
+    ],
+    "reminder_days_before": [
+      90,
+      60,
+      30,
+      7,
+      1
+    ],
+    "notify_on_due_date": true,
+    "overdue_followup_days": [
+      1,
+      7
+    ],
+    "verification_max_age_days_demo": 30,
+    "renewal_required_default": false,
+    "regulatory_note": "Demo configuration only. Replace with authorized requirements."
+  }
+}

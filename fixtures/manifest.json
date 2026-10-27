@@ -1,0 +1,176 @@
+[
+  {
+    "document_id": "DOC-001",
+    "png": "fixtures/DOC-001.png",
+    "pdf": "fixtures/DOC-001.pdf",
+    "submission_id": "SUB-001"
+  },
+  {
+    "document_id": "DOC-002",
+    "png": "fixtures/DOC-002.png",
+    "pdf": "fixtures/DOC-002.pdf",
+    "submission_id": "SUB-002"
+  },
+  {
+    "document_id": "DOC-003",
+    "png": "fixtures/DOC-003.png",
+    "pdf": "fixtures/DOC-003.pdf",
+    "submission_id": "SUB-003"
+  },
+  {
+    "document_id": "DOC-004",
+    "png": "fixtures/DOC-004.png",
+    "pdf": "fixtures/DOC-004.pdf",
+    "submission_id": "SUB-004"
+  },
+  {
+    "document_id": "DOC-005",
+    "png": "fixtures/DOC-005.png",
+    "pdf": "fixtures/DOC-005.pdf",
+    "submission_id": "SUB-005"
+  },
+  {
+    "document_id": "DOC-006",
+    "png": "fixtures/DOC-006.png",
+    "pdf": "fixtures/DOC-006.pdf",
+    "submission_id": "SUB-006"
+  },
+  {
+    "document_id": "DOC-007",
+    "png": "fixtures/DOC-007.png",
+    "pdf": "fixtures/DOC-007.pdf",
+    "submission_id": "SUB-007"
+  },
+  {
+    "document_id": "DOC-008",
+    "png": "fixtures/DOC-008.png",
+    "pdf": "fixtures/DOC-008.pdf",
+    "submission_id": "SUB-008"
+  },
+  {
+    "document_id": "DOC-009",
+    "png": "fixtures/DOC-009.png",
+    "pdf": "fixtures/DOC-009.pdf",
+    "submission_id": "SUB-009"
+  },
+  {
+    "document_id": "DOC-010",
+    "png": "fixtures/DOC-010.png",
+    "pdf": "fixtures/DOC-010.pdf",
+    "submission_id": "SUB-010"
+  },
+  {
+    "document_id": "DOC-011",
+    "png": "fixtures/DOC-011.png",
+    "pdf": "fixtures/DOC-011.pdf",
+    "submission_id": "SUB-011"
+  },
+  {
+    "document_id": "DOC-012",
+    "png": "fixtures/DOC-012.png",
+    "pdf": "fixtures/DOC-012.pdf",
+    "submission_id": "SUB-012"
+  },
+  {
+    "document_id": "DOC-013",
+    "png": "fixtures/DOC-013.png",
+    "pdf": "fixtures/DOC-013.pdf",
+    "submission_id": "SUB-013"
+  },
+  {
+    "document_id": "DOC-014",
+    "png": "fixtures/DOC-014.png",
+    "pdf": "fixtures/DOC-014.pdf",
+    "submission_id": "SUB-014"
+  },
+  {
+    "document_id": "DOC-015",
+    "png": "fixtures/DOC-015.png",
+    "pdf": "fixtures/DOC-015.pdf",
+    "submission_id": "SUB-015"
+  },
+  {
+    "document_id": "DOC-016",
+    "png": "fixtures/DOC-016.png",
+    "pdf": "fixtures/DOC-016.pdf",
+    "submission_id": "SUB-016"
+  },
+  {
+    "document_id": "DOC-018",
+    "png": "fixtures/DOC-018.png",
+    "pdf": "fixtures/DOC-018.pdf",
+    "submission_id": "SUB-018"
+  },
+  {
+    "document_id": "DOC-019",
+    "png": "fixtures/DOC-019.png",
+    "pdf": "fixtures/DOC-019.pdf",
+    "submission_id": "SUB-019"
+  },
+  {
+    "document_id": "DOC-020",
+    "png": "fixtures/DOC-020.png",
+    "pdf": "fixtures/DOC-020.pdf",
+    "submission_id": "SUB-020"
+  },
+  {
+    "document_id": "DOC-021",
+    "png": "fixtures/DOC-021.png",
+    "pdf": "fixtures/DOC-021.pdf",
+    "submission_id": "SUB-021"
+  },
+  {
+    "document_id": "DOC-022",
+    "png": "fixtures/DOC-022.png",
+    "pdf": "fixtures/DOC-022.pdf",
+    "submission_id": "SUB-022"
+  },
+  {
+    "document_id": "DOC-023",
+    "png": "fixtures/DOC-023.png",
+    "pdf": "fixtures/DOC-023.pdf",
+    "submission_id": "SUB-023"
+  },
+  {
+    "document_id": "DOC-024",
+    "png": "fixtures/DOC-024.png",
+    "pdf": "fixtures/DOC-024.pdf",
+    "submission_id": "SUB-024"
+  },
+  {
+    "document_id": "DOC-025",
+    "png": "fixtures/DOC-025.png",
+    "pdf": "fixtures/DOC-025.pdf",
+    "submission_id": "SUB-025"
+  },
+  {
+    "document_id": "DOC-026",
+    "png": "fixtures/DOC-026.png",
+    "pdf": "fixtures/DOC-026.pdf",
+    "submission_id": "SUB-026"
+  },
+  {
+    "document_id": "DOC-027",
+    "png": "fixtures/DOC-027.png",
+    "pdf": "fixtures/DOC-027.pdf",
+    "submission_id": "SUB-027"
+  },
+  {
+    "document_id": "DOC-028",
+    "png": "fixtures/DOC-028.png",
+    "pdf": "fixtures/DOC-028.pdf",
+    "submission_id": "SUB-028"
+  },
+  {
+    "document_id": "DOC-029",
+    "png": "fixtures/DOC-029.png",
+    "pdf": "fixtures/DOC-029.pdf",
+    "submission_id": "SUB-029"
+  },
+  {
+    "document_id": "DOC-030",
+    "png": "fixtures/DOC-030.png",
+    "pdf": "fixtures/DOC-030.pdf",
+    "submission_id": "SUB-030"
+  }
+]
